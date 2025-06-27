@@ -24,6 +24,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+
+
+
 // 현재 화면의 좌표를 저장
 const b_left = window.screenX;
 const b_top = window.screenY;
