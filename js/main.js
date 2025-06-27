@@ -19,6 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (keyword) {
             alert(`'${keyword}' 검색 기능은 준비 중입니다.`);
         }
+
+        
     });
 });
 
