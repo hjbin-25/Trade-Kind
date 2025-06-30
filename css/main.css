@@ -17,14 +17,10 @@ header {
   border-bottom: 1px solid #ccc;  /* 아래쪽 경계선 */
 }
 
-
-
 /* 헤더 내 이미지 크기 지정 */
 header img {
   height: 50px;  /* 높이 고정 */
 }
-
-
 
 /* 헤더 내 네비게이션 목록 스타일 */
 header ul {
