@@ -152,3 +152,73 @@ main ol li::marker {
   color: #40916c;
   font-weight: bold;
 }
+
+/* 태블릿 이하 (768px 이하) */
+@media (max-width: 768px) {
+  main {
+    padding: 15px;
+    margin: 20px auto 40px auto;
+  }
+
+  main h2 {
+    font-size: 24px;
+  }
+
+  .product-item {
+    width: 48%; /* 2개씩 배치 */
+    padding: 25px;
+  }
+
+  .product-item h4 {
+    font-size: 18px;
+  }
+
+  .product-item p {
+    font-size: 14px;
+    min-height: 50px;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .product-link {
+    padding: 7px 14px;
+    font-size: 14px;
+  }
+}
+
+/* 모바일 (480px 이하) */
+@media (max-width: 480px) {
+  main {
+    padding: 10px;
+    margin: 15px auto 30px auto;
+  }
+
+  main h2 {
+    font-size: 20px;
+  }
+
+  .product-item {
+    width: 100%; /* 1개씩 세로 배치 */
+    padding: 20px;
+  }
+
+  .product-item h4 {
+    font-size: 16px;
+  }
+
+  .product-item p {
+    font-size: 13px;
+    min-height: 45px;
+  }
+
+  .price {
+    font-size: 15px;
+  }
+
+  .product-link {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+}
