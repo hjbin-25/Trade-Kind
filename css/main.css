@@ -7,6 +7,30 @@ body {
   font-family: 'Noto Sans KR', sans-serif;  /* 한글과 영문 혼용 폰트 */
 }
 
+a {
+  text-decoration: none;
+}
+
+.logo-container {
+  display: flex;             /* 가로 정렬 */
+  align-items: center;       /* 세로 가운데 정렬 핵심! */
+  gap: 10px;                 /* 로고와 텍스트 사이 간격 */
+  cursor: pointer;
+  user-select: none;         /* 선택 방지 (선택하고 싶으면 제거) */
+}
+
+.logo-container img {
+  height: 48px;              /* 로고 크기 조절 */
+  display: block;            /* 이미지 아래 공백 제거 */
+}
+
+.site-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;            /* 줄 높이 딱 맞춤 */
+  color: #222;
+}
+
 /* 헤더 영역 스타일 */
 header {
   display: flex;  /* 플렉스 박스 사용해 가로 배치 */
